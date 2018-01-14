@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* Angi the Artist contact stylesheet*/
+
+table{
+	font-family:Raleway;
+}
+
+input:focus, textarea:focus{
+	background-color: #ff5d77;
+}
+
+#submit:focus{
+	color: white;
+}
+
+#submit{
+	margin-left: 160px;
+	font-family: Raleway;
+	border-radius: 5px;
+	padding: 2px;
+}

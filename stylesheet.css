@@ -1,0 +1,434 @@
+﻿@charset "utf-8";
+/* Angi the Artist stylesheet*/
+
+body{
+min-width: 44em;
+max-width: 60em;
+min-height: 25em;
+overflow: scroll;
+position:relative;
+left: 0;
+margin: 0;
+}
+i{
+height: 150%;
+}
+a{
+text-decoration:none;
+color: #ffdf7b;
+font-family: 'Raleway',sans-serif;
+}
+audio{
+position: absolute;
+top: 80%;
+left: 80%;
+}
+
+/* Quote Text -- INDEX */
+#quote{
+position: absolute;
+left: 20%;
+top: 50%;
+font-family: 'Raleway',sans-serif;
+font-weight: 300;
+font-style:italic;
+font-size: 2em;
+color: #fffff2;
+width: 25em;
+text-align:center;
+}
+/* Quote Text */
+#cuz:hover{
+color: #c1fff0;
+}
+#heaven:hover{
+color: #c1fff0;
+}
+#aint:hover{
+color: #c1fff0;
+}
+#free:hover{
+color: #c1fff0;
+}
+#and:hover{
+color: #c1fff0;
+}
+#it:hover{
+color: #c1fff0;
+}
+#cost:hover{
+color: #c1fff0;
+}
+#ocean:hover{
+color: #c1fff0;
+}
+#jewels:hover{
+color: #c1fff0;
+}
+
+/* Explore Button */
+#explore{
+position: absolute;
+left: 28.5%;
+top:65%;
+border-radius: 5px;
+border: 2px solid #fffff2;
+background-color: black;
+height: 20px;
+width: 80px;
+margin: auto;
+padding: 2px;
+text-align: center;
+}
+#explore:hover{
+border:2px solid #ffd0ce;
+}
+#explore:hover a{
+color:#c1fff0;
+}
+
+/* Hidden Menu */
+.menu {
+background: #ffd0ce;
+left: -285px;  /* start off behind the scenes */
+height: 1000px;
+position: fixed;
+width: 285px;
+}
+
+/* Revealed Menu */
+.menu ul {
+border-top: 1px solid #fffff2;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.menu li {
+border-bottom: 1px solid #fffff2;
+font-family: 'Open Sans', sans-serif;
+line-height: 45px;
+padding-bottom: 3px;
+padding-left: 20px;
+padding-top: 3px;
+}
+.menu a {
+color: #000;
+font-size: 15px;
+text-decoration: none;
+text-transform: uppercase;
+}
+.menu li:hover {
+background-color: #ffdf7b;
+font-size: 15px;
+text-decoration: none;
+text-transform: uppercase;
+}
+.menu li:hover a{
+color: #fffff2;
+font-size: 15px;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+/* Menu Icons */
+.icon-close {
+cursor: pointer;
+padding-left: 10px;
+padding-top: 10px;
+}
+.icon-menu {
+color: #fffff2;
+cursor: pointer;
+padding-bottom: 25px;
+padding-left: 25px;
+padding-top: 25px;
+}
+.icon-menu i {
+margin-left: 20px;
+}
+
+/* Social Media Icons */
+#facebook{
+position: absolute;
+top: 130%;
+left: 55%;
+}
+#facebookHover{
+display: none;
+position: absolute;
+top: 130%;
+left: 55%;
+}
+#facebook:hover + #facebookHover{
+display: inline;
+}
+#twitter{
+position: absolute;
+top: 130%;
+left: 62%;
+}
+#twitterHover{
+display: none;
+position: absolute;
+top: 130%;
+left: 62%;
+}
+#instagram{
+position: absolute;
+top: 130%;
+left: 69%;
+}
+#instagramHover{
+display: none;
+position: absolute;
+top: 130%;
+left: 69%;
+}
+#soundcloud{
+position: absolute;
+top: 130%;
+left: 76%;
+}
+#soundcloudHover{
+display: none;
+position: absolute;
+top: 130%;
+left: 76%;
+}
+#background{
+background-color: black;
+}
+
+/*  REVISIT THIS CODE
+.container{
+border: 2px solid white;
+}
+
+.socialMedia{
+position: absolute;
+top: 130%;
+left: 55%;
+add display inline ?
+}
+
+.socialMediaHover{
+display: none;
+position: absolute;
+top: 130%;
+left: 55%;
+add display inline?
+}
+
+#facebook, #twitter, #instagram, #soundcloud{
+display: inline;
+}
+
+#facebookHover, #twitterHover, #instagramHover, #soundcloudHover{
+display: inline;
+}
+*/
+
+/*OTHER PAGES BEYOND INDEX */
+
+#header {
+z-index: 1;
+position: absolute;
+width: 90%;
+margin-top: 20px;
+margin-left: 100px;
+}
+#name {
+float:left;
+margin-top: -10px;
+font-size: 2.5em;
+font-family: 'Raleway',sans-serif;
+font-weight: 200;
+color: #fffff2;
+}
+
+/*#logo{
+margin-top: -10px;
+ border: 2px solid white; 
+}
+
+h4 {
+margin-left: 5px;
+margin-bottom: 15px;
+font-family: Verdana, sans-serif;
+}
+
+li {
+list-style-type: square;
+}
+
+a:hover {
+font-weight: bold;
+}
+
+.left {
+position: relative;
+float: left;
+margin-top: 100px;
+width: 10%;
+height: 300px;
+margin-bottom: 10px;
+margin-left: 45px;
+border: 2px solid white; 
+}
+*/
+
+.right {
+position: relative;
+float: right;
+width: 90%;
+margin-top: 100px;
+margin-bottom: 10px;
+}
+.right p {
+margin-left: 5px;
+margin-right: 5px;
+margin-top: -5px;
+font-family: 'Raleway', serif;
+font-weight: 100;
+color: #fffff2;
+}
+/*#footer {
+position: relative;
+height: 50px;
+background-color: #000;
+clear: both;
+font-size: 14px;
+text-align: center;
+color: #000;
+margin-left: 45px;
+}
+#footer p {
+position: relative;
+padding-top: 15px;
+}*/
+
+/*MUSIC PAGE CODE*/
+
+table p{
+color: #fffff2;
+font-family: 'Raleway', sans-serif;
+position: relative;
+padding-top: 20px;
+padding-bottom: 50px;
+}
+
+/*FILM PAGE CODE*/
+
+table h3{
+color: #fffff2;
+font-family: 'Raleway', sans-serif;
+font-style: italic;
+font-weight: 100;
+color: #92ead9;
+position: relative;
+padding: 0px;
+}
+
+#magazine{
+/*position: relative;
+margin-left: 150px;*/
+margin-bottom: 20px;
+}
+
+/*CONTACT PAGE CODE*/
+
+form{
+	float: left;
+}
+
+#contactTable{
+	font-family:Raleway;
+}
+
+table td{
+	color: #fffff2;
+}
+
+#messageBox{
+	height: 100px;
+	width: 165px;
+}
+
+#submit{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: Raleway;
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #92ead9;
+	color: #000;
+}
+
+input:focus, textarea:focus{
+	background-color: #ffd0ce;
+}
+
+#submit:focus{
+	background-color: #ffd0ce;
+	color: #000;
+}
+/*IMAGE SLIDER CODE FOR FILM PAGE
+
+@keyframes slider1{
+	
+	0%{
+		Left:0;
+	}
+	
+	20%{
+		Left: 0;
+	}
+	
+	25%{
+		Left: 0%;
+	}
+	
+	45%{
+		Left: -100%;
+	}
+	
+	50%{
+		Left: -100%;
+	}
+	
+	70%{
+		Left: -100%;
+	}
+	
+	75%{
+		Left: -200%;
+	}
+	
+	95%{
+		Left: -200%;
+	}
+	
+	100%{
+		Left: -200%;
+	}
+}
+	
+	#slider{
+		overflow: hidden;
+	}
+	
+	#slider img{
+		width: 20%;
+		float: left;
+	
+	
+	#slider figure {
+		position: absolute;
+		width: 200%;
+		margin:0;
+		left: 0;
+		text-align: left;
+		font-size: 10px;
+		animation: 20s slider1 infinite;
+	}	
+	 */
